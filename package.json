@@ -1,0 +1,35 @@
+{
+  "name": "waashing-bot",
+  "version": "1.0.0",
+  "description": "A Waashing bot discord moderation bot",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thendra-s/waashing-bot.git"
+  },
+  "keywords": [
+    "Waashing",
+    "Bot",
+    "Discord",
+    "DiscordBot"
+  ],
+  "author": "Thendra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thendra-s/waashing-bot/issues"
+  },
+  "homepage": "https://github.com/thendra-s/waashing-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.4.0",
+    "discord-api-types": "^0.37.20",
+    "discord.js": "^14.7.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
